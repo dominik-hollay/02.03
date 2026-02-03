@@ -1,11 +1,17 @@
 #container{
     border: 3px solid red;
-    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px 100px;
 }
 
 .cikk{
     border: 2px dashed black;
-    float: left;
-    width: calc(100% / 3);
-    box-sizing: border-box;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 200px;
+
+    flex: 1 0 200px; /*Ez ugyanaz mint az előző, csak rövidebben*/
 }
+
