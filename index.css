@@ -1,7 +1,11 @@
 #container{
     border: 3px solid red;
+    height: auto;
 }
 
 .cikk{
     border: 2px dashed black;
+    float: left;
+    width: calc(100% / 3);
+    box-sizing: border-box;
 }
